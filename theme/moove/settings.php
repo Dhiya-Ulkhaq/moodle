@@ -228,7 +228,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/bannerheading';
     $title = get_string('bannerheading', 'theme_moove');
     $description = get_string('bannerheadingdesc', 'theme_moove');
-    $default = 'Perfect Learning System';
+    $default = 'Sistem Informasi Pembelajaran Daring (SIRaDar)';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -237,7 +237,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/bannercontent';
     $title = get_string('bannercontent', 'theme_moove');
     $description = get_string('bannercontentdesc', 'theme_moove');
-    $default = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.';
+    $default = 'Sistem pembelajaran daring milik Politeknik Statistika STIS yang dibuat oleh kelompok 1, kelas 3SI1 T.A 2021/2022';
     $setting = new admin_setting_configtextarea($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -620,7 +620,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/getintouchcontent';
     $title = get_string('getintouchcontent', 'theme_moove');
     $description = get_string('getintouchcontentdesc', 'theme_moove');
-    $default = 'Conecti.me';
+    $default = 'Politeknik Statistika STIS';
     $setting = new admin_setting_configtextarea($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -629,7 +629,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/website';
     $title = get_string('website', 'theme_moove');
     $description = get_string('websitedesc', 'theme_moove');
-    $default = 'http://conecti.me';
+    $default = 'https://stis.ac.id/';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -638,7 +638,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/mobile';
     $title = get_string('mobile', 'theme_moove');
     $description = get_string('mobiledesc', 'theme_moove');
-    $default = 'Mobile : +55 (98) 00123-45678';
+    $default = '(021) 8191437';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -647,7 +647,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/mail';
     $title = get_string('mail', 'theme_moove');
     $description = get_string('maildesc', 'theme_moove');
-    $default = 'willianmano@conecti.me';
+    $default = 'info@stis.ac.id';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -656,7 +656,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/facebook';
     $title = get_string('facebook', 'theme_moove');
     $description = get_string('facebookdesc', 'theme_moove');
-    $default = '';
+    $default = 'https://www.facebook.com/PolstatSTIS/';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -665,7 +665,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/twitter';
     $title = get_string('twitter', 'theme_moove');
     $description = get_string('twitterdesc', 'theme_moove');
-    $default = '';
+    $default = 'https://twitter.com/STISJKT/';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -683,7 +683,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/youtube';
     $title = get_string('youtube', 'theme_moove');
     $description = get_string('youtubedesc', 'theme_moove');
-    $default = '';
+    $default = 'https://www.youtube.com/channel/UCwmpr4lmrApoGRpq4TcmsvA';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
@@ -692,7 +692,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_moove/instagram';
     $title = get_string('instagram', 'theme_moove');
     $description = get_string('instagramdesc', 'theme_moove');
-    $default = '';
+    $default = 'https://www.instagram.com/polstatstis/';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
